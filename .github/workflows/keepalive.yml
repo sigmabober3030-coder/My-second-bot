@@ -1,5 +1,6 @@
 name: keepalive
 on:
+  push:
   schedule:
     - cron: "*/10 * * * *"
   workflow_dispatch:
